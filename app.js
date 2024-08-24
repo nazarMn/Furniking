@@ -5,7 +5,9 @@ const path = require('path');
 
 
 
-const PORT = process.env.PORT || PORT;
+// const PORT = process.env.PORT || PORT;
+
+const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
